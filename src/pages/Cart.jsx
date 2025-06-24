@@ -40,7 +40,7 @@ export default function Cart({ cartItems, setCartItems }) {
     ).join('%0A');
 
     const message = `Bonjour, je souhaite passer une commande:%0A%0A${itemsList}%0A%0ATotal: ${total} XAF`;
-    window.open(`https://wa.me/695749209?text=${message}`, '_blank');
+    window.open(`https://wa.me/+237695749209?text=${message}`, '_blank');
   };
 
   const formatPrice = (price) => {
