@@ -80,7 +80,7 @@ function App() {
       </Routes>
       <Footer/>
       <a
-  href="https://wa.me/695749209"
+  href="https://wa.me/+237695749209"
   target="_blank"
   rel="noopener noreferrer"
   className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white shadow-lg rounded-full p-4 flex items-center justify-center transition duration-300"
