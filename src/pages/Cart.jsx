@@ -131,7 +131,7 @@ export default function Cart({ cartItems, setCartItems }) {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967..."/>
               </svg>
-              Passer commande
+              Commander (WhatsApp)
             </button>
           </div>
         </div>
