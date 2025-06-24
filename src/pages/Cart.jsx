@@ -39,7 +39,7 @@ export default function Cart({ cartItems, setCartItems }) {
       `- ${item.name} (x${item.quantity}): ${subtotals[item.id] || 0} XAF`
     ).join('%0A');
 
-    const message = `Bonjour, je souhaite passer une commande:%0A%0A${itemsList}%0A%0ATotal: ${total} XAF`;
+    const message = `Bonjour, je souhaite passer une commande chez SKIN GIRL LABS:%0A%0A${itemsList}%0A%0ATotal: ${total} XAF    Merci!`;
     window.open(`https://wa.me/+237695749209?text=${message}`, '_blank');
   };
 
